@@ -1,0 +1,23 @@
+#NavTabPane
+{
+    -fx-tab-min-height: 5em;
+    -fx-tab-max-height: 5em;
+    
+    -fx-tab-min-width: 0.5em;
+    -fx-tab-max-width: 0.5em;
+    
+    
+}
+
+.tab .tab-label
+{
+    -fx-back-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-text-fill: #FFFFFF;
+}
+
+.tab:selected
+{
+    -fx-background-color: #000000;
+    -fx-border-color: #FFFFFF;
+}
